@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Memories — For Sahil</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="starfield"></div>
+
+<nav class="site-nav">
+  <a href="index.html">Home</a>
+  <a href="videos.html">Videos</a>
+  <a href="gallery.html" class="active">Memories</a>
+</nav>
+
+<div class="hero show" style="padding-bottom:0;">
+  <p class="hero-eyebrow">every photo I couldn't bring myself to delete</p>
+  <h1 class="hero-title" style="font-size:clamp(34px,7vw,58px);">Our Collection</h1>
+  <p class="hero-names">forty photos, in no particular order, because they all matter equally</p>
+</div>
+
+<section>
+  <div class="gallery-controls">
+    <button class="play-with-song" id="gallerySongToggle">♪ play our song</button>
+  </div>
+  <div class="gallery-grid" id="galleryGrid"></div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="Enlarged memory" />
+</div>
+
+<footer class="site-foot">
+  forty photos, and still not enough of you
+  <span class="small">— Harshu</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

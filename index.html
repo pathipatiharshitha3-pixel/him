@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>For Sahil</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="starfield"></div>
+
+<!-- ============ BOUQUET GATE ============ -->
+<div class="gate" id="gate">
+  <div class="bouquet" id="bouquet" role="button" tabindex="0" aria-label="Tap to open your bouquet">
+    <div class="stem"></div>
+    <div class="ribbon"></div>
+    <div class="petal-cluster">
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <span class="burst-heart" style="--dx:-40px; --dr:-30deg;">♥</span>
+      <span class="burst-heart" style="--dx:10px; --dr:10deg; animation-delay:.1s;">♡</span>
+      <span class="burst-heart" style="--dx:50px; --dr:35deg; animation-delay:.2s;">♥</span>
+      <span class="burst-heart" style="--dx:-15px; --dr:-5deg; animation-delay:.3s;">♡</span>
+    </div>
+  </div>
+  <p class="gate-prompt">tap the bouquet, my love</p>
+</div>
+
+<!-- ============ NAV ============ -->
+<nav class="site-nav">
+  <a href="index.html" class="active">Home</a>
+  <a href="videos.html">Videos</a>
+  <a href="gallery.html">Memories</a>
+</nav>
+
+<!-- ============ HERO ============ -->
+<div class="hero" id="hero">
+  <p class="hero-eyebrow">a small corner of the internet, built just for you</p>
+  <h1 class="hero-title">Welcome, Sahil</h1>
+  <p class="hero-names">My love <span class="sep">·</span> Baby</p>
+</div>
+
+<!-- ============ OUR STORY ============ -->
+<section>
+  <p class="section-eyebrow">Where it started</p>
+  <h2 class="section-title">Our Story</h2>
+  <div class="story-card">
+    <p>
+      This is the part of the site where I get to say things I usually save for 2am voice notes —
+      how you became the person I text before I've even finished having the thought, and how
+      "goodnight" over a call still isn't the same as goodnight next to you. Until it can be,
+      this is where I'm keeping us.
+    </p>
+
+    <div class="pet-names">
+      <div class="pet-block">
+        <p class="pet-who">You call me</p>
+        <p class="pet-word">Harshu</p>
+      </div>
+      <div class="pet-block">
+        <p class="pet-who">Also, when I'm being dramatic</p>
+        <p class="pet-word">Pagal aurat 💗</p>
+      </div>
+      <div class="pet-block">
+        <p class="pet-who">I call you</p>
+        <p class="pet-word">My love / Baby</p>
+      </div>
+    </div>
+
+    <p class="anniversary-line">
+      September 15th belongs to us. Our next one is
+      <span class="anniversary-count" id="anniversaryCount">counting…</span>.
+    </p>
+  </div>
+</section>
+
+<!-- ============ DISTANCE / CONSTELLATION ============ -->
+<section>
+  <p class="section-eyebrow">Long distance, short on nothing</p>
+  <h2 class="section-title">Two Skies, One Line</h2>
+  <div class="constellation-wrap">
+    <svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid meet">
+      <line class="const-line" x1="60" y1="160" x2="340" y2="60" />
+      <circle class="const-dot" cx="60" cy="160" r="5" />
+      <circle class="const-dot" cx="340" cy="60" r="5" />
+      <text class="const-label" x="30" y="190">Andhra Pradesh,where I am</text>
+      <text class="const-label" x="280" y="40">Pune, where you are</text>
+    </svg>
+  </div>
+  <p class="const-caption">
+    Same moon, different windows. One line is all it takes to still call it close.
+  </p>
+</section>
+
+<!-- ============ SCREENSHOTS ============ -->
+<section>
+  <p class="section-eyebrow">Proof, if you ever doubt it</p>
+  <h2 class="section-title">We Never Really Stopped Talking</h2>
+  <div class="screens-row">
+    <figure class="screen-frame">
+    <img src="s images/cheese.jpeg" alt="The first picture of us" />
+    </figure>
+
+    <figure class="screen-frame">
+    <img src="s images/fav pic.jpeg" alt="The proposal" />
+    </figure>
+
+    <figure class="screen-frame">
+    <img src="s images/out.jpeg" alt="A favorite" />
+    </figure>
+  </div>
+</section>
+
+<!-- ============ WHERE TO NEXT ============ -->
+<section>
+  <p class="section-eyebrow">There's more</p>
+  <h2 class="section-title">Keep Going</h2>
+  <div class="nav-cards">
+    <a class="nav-card" href="videos.html">
+      <p class="hero-eyebrow">watch</p>
+      <p class="nav-card-title">The Videos</p>
+      <p class="nav-card-sub">six moments I didn't want to lose</p>
+    </a>
+    <a class="nav-card" href="gallery.html">
+      <p class="hero-eyebrow">look through</p>
+      <p class="nav-card-title">The Memories</p>
+      <p class="nav-card-sub">forty photos, one very full heart</p>
+    </a>
+  </div>
+</section>
+
+<footer class="site-foot">
+  yours, always
+  <span class="small">— Harshu</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
