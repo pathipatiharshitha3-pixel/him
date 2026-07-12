@@ -178,8 +178,8 @@
     }
   ];
 
-  const VIDEO_FOLDER = "s videos/";
-  const AUDIO_FOLDER = "s audio/";
+  const VIDEO_FOLDER = "";
+  const AUDIO_FOLDER = "";
 
   function buildVideoBlocks() {
     const list = document.getElementById('videoList');
@@ -272,7 +272,7 @@
     "WhatsApp Image 2026-07-12 at 12.56.42 PM (1).jpeg"
   ];
 
-  const IMAGE_FOLDER = "s images/";
+  const IMAGE_FOLDER = "";
 
   function initGallery() {
     const grid = document.getElementById('galleryGrid');
